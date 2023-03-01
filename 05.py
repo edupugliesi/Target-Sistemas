@@ -16,6 +16,5 @@ for letra in range(len(string)-1, -1, -1):
     stringInversa.append(string[cont])
     string[cont]
     cont -= 1
-', '.join(stringInversa)
 
 print(f'A palavra ou frase invertida é {"".join(stringInversa)} ')
